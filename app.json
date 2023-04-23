@@ -1,0 +1,52 @@
+{
+  "name": "جلسات",
+  "description": "بوت استخراج جلسات تلي.",
+  "logo": "https://telegra.ph/file/654ddaf472f18b799600b.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram"
+  ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "repository": "https://github.com/odbrg6/ses",
+  "env": {
+    "ENVIRONMENT": {
+      "description": "ما تغير شي.",
+      "required": true,
+      "value": "ANYTHING"
+    },
+    "API_ID": {
+      "description": "جيبه من my.telegram.org/apps.",
+      "required": true,
+      "value": "23119543"
+    },
+    "API_HASH": {
+      "description": "جيبه من my.telegram.org/apps.",
+      "required": true,
+      "value": "39bf2bb34512d3d22d090007283e390c"
+    },
+    "OWNER_ID": {
+      "description": "ايدي المالك.",
+      "required": true,
+      "value": "6007372789"
+    },
+    "MONGO_DB_URI": {
+      "description": "كود مونجو cloud.mongodb.com",
+      "required": true,
+      "value": "mongodb+srv://bot_vambir:Al2552001@cluster0.heabj.mongodb.net/vambir_bot?retryWrites=true&w=majority"
+    },
+    "MUST_JOIN": {
+      "description": "يوزر القروب او القناة.(بدون @)",
+      "required": true,
+      "value": "me_adrut"
+    },
+    "BOT_TOKEN": {
+      "description": "جيبه من @BotFather",
+      "required": true,
+      "value": ""
+    }
+  }
+}
